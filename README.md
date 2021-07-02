@@ -1,4 +1,4 @@
-# Sudoku-solver-In-C++
+# Sudoku-solver-In-C
 Sudoku is a logic puzzle, consisting of a 9×9 grid and further subdivided into ‘mini-grids’ of size 3×3. Each row, column, and 3×3 mini-grid contains the numbers 1 to 9 once, with a true Sudoku grid having a unique solution. 
 In this program i have implemented the Sudoku solver using Backtracking approach.
 # Backtracking
@@ -10,7 +10,7 @@ For every unassigned index, there are 9 possible options so the time complexity 
 •	Space Complexity: O(n*n). 
 To store the output array a matrix is needed.
 # How to Run 
-There are basically two cpp files 
-1. Sudoku generate is used to generate a sudoku which will be stored in a text file named text which will be used in other cpp file
+There are basically two c files 
+1. Sudoku generate is used to generate a sudoku which will be stored in a text file named text which will be used in other c file
 2. Sudoku solver is used to solve the generated sudoku 
 3. Note: keep the text file in the same directory.
